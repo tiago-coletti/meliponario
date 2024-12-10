@@ -211,7 +211,7 @@ footer {
 }
 
 /* Menu em telas menores */
-@media screen and (max-width: 837px) {
+@media screen and (max-width: 950px) {
     .navbar {
         display: flex;
         flex-direction: column;
