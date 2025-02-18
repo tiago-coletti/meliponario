@@ -87,7 +87,15 @@ header .logo img {
 .image-container {
     text-align: center;
     margin: 20px 0;
+
 }
+
+.imagem-reduzida {
+    transform: scale(0.7); /* Reduz o tamanho para 70% */
+    display: block;
+    margin: auto;
+  }  
+
 
 .image-container img {
     max-width: 100%;
