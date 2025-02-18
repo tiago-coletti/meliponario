@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduíno Meliponário</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imagens/logo.png" alt="IFSC Logo">
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="#">Monitoramento & Dados</a></li>
+                <li><a href="sobreAsAbelhas.html">Sobre as abelhas</a></li>
+                <li><a href="abelhasEmCasa.html">Abelhas em casa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="article">
+            <h1>Como Funciona o Monitoramento das Abelhas?</h1>
+            <p>
+                No projeto do meliponário no IFSC, o Arduino está sendo utilizado como a base para monitoramento das condições do ambiente onde as abelhas vivem. Ele atua como um microcontrolador, responsável por coletar dados de sensores, processá-los e, possivelmente, transmitir essas informações para análise. Os sensores conectados ao Arduino, medem temperatura e umidade, fatores essenciais para o bem-estar das abelhas. O objetivo desse sistema é garantir um monitoramento eficiente e em tempo real, ajudando a identificar variações ambientais que possam afetar a colmeia.
+            </p>
+
+            <div class="image-container">
+                <img src="imagens/arduino02.jpeg" alt="Imagem ilustrativa da fase inicial" class="imagem-reduzida">
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Meliponário do IFSC. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

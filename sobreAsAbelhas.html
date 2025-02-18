@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre as Abelhas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imagens/logo.png" alt="IFSC Logo">
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="#">Monitoramento & Dados</a></li>
+                <li><a href="arduino.html">Arduino</a></li>
+                <li><a href="abelhasEmCasa.html">Abelhas em casa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="article">
+            <h1>O Que São Abelhas?</h1>
+            <p>
+                Abelhas são insetos voadores, conhecidos pelo seu importante papel na polinização. Pertencem à ordem Hymenoptera.
+São animais sociais que vivem em colônias, as colmeias, e têm uma organização hierárquica.
+            </p>
+            
+            <h1>Importância das Abelhas</h1>
+            <h2>Polinização</h2>
+            <p>
+                Em cerca de 80% de todas as plantas com flores, alguns animais são os responsáveis pela polinização. Na grande maioria dos casos, entre os animais polinizadores, nenhum é mais eficiente do que a abelha. 
+            </p>
+            <div class="image-container">
+                <img src="imagens/abelha.jpg" alt="Imagem ilustrativa da fase inicial" class="imagem-reduzida">
+            </div>
+            <p>
+                Graças ao seu trabalho de coleta de pólen e néctar, voando de flor em flor, as abelhas polinizam as flores e promovem a sua reprodução cruzada. Além de permitir a reprodução das plantas, esse trabalho também resulta na produção de frutos de melhor qualidade e maior número de sementes.
+            </p>
+
+            <h2>Manutenção de Ecossistemas</h2>
+            <p>
+                O inseto é responsável pela reprodução de 80% das plantas, elas estão relacionadas com a sobrevivência de muitas espécies de plantas, sendo fundamentais para o aumento da produtividade agrícola e para o sustento de espécies (aves e mamíferos) que se alimentam de frutas e sementes. Através da polinização, cerca de 80% das plantas se reproduzem. Sem as abelhas, a vida em geral sofreria, já que a vegetação seria completamente reduzida.
+            </p>
+
+            <h2>Impacto Econômico</h2>
+            <p>
+                Muito além da produção de mel, as abelhas têm um papel crucial para a produção de alimentos em todo o planeta. No que diz respeito à agricultura, especificamente no Brasil, as abelhas são fundamentais para a produção de diversas culturas de exportação e consumo interno, como café, soja, maracujá, melão e laranja, entre outras. No caso do café, a polinização por abelhas não somente aumenta a produção, mas também pode melhorar a qualidade dos grãos. Além disso, plantas como o cajueiro, a goiabeira, o maracujá e a castanheira-do-Brasil são outras entre tantas espécies que dependem da polinização por abelhas para se reproduzirem e manterem uma produção sustentável. 
+            </p>
+            <div class="image-container">
+                <img src="imagens/Abelhas-Cafe.jpg" alt="Imagem ilustrativa da fase inicial" class="imagem-reduzida">
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Meliponário do IFSC. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
